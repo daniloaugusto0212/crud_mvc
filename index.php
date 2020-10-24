@@ -11,7 +11,7 @@
 	<?php include_once 'view/dependencias.php'; ?>
 </head>
 <body>
-
+<br>
 <div class="container">
 	
 	<h2 class="text-center"> Lista de Clientes <i class="fa fa-list"></i></h2>
@@ -50,7 +50,10 @@
 					<td><?= $client['address'] ?></td>
 					<td><?= $client['phone'] ?></td>
 					<td>
-						<form method="POST">
+						<form method="POST" action="view/page_update.php">
+
+							<input type="hidden" name="id" value="<?= $client['id'] ?>">
+							
 							<button class="btn btn-warning btn-xs">
 								<i class="fa fa-user-edit"></i>
 							</button>
