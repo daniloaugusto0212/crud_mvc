@@ -7,7 +7,7 @@
 
 <div class="container">
 	
-	<h2 class="text-center"> List of Clients <i class="fa fa-list"></i></h2>
+	<h2 class="text-center"> Lista de Clientes <i class="fa fa-list"></i></h2>
 
 	<h5 class="text-right">
 		<a href="view/page_register.php" class="btn btn-primary btn-xs">

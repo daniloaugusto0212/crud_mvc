@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 
 <!-- Titulo e Icone - HEAD -->
-<title>CRUD - Udemy</title>
+<title>CRUD_MVC</title>
 
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
 
