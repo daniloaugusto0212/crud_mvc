@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-4 form-group">
                 CPF: <i class="fa fa-address-card"></i>
-                <input class="form-control" type="text" name="cpf" required ><br>
+                <input class="form-control" type="text" name="cpf" id="cpf" required ><br>
             </div>
             <div class="col-md-4 form-group">
                 Nascimento: <i class="fa fa-calendar"></i>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-4 form-group">
                 Telefone: <i class="fab fa-whatsapp"></i>
-                <input class="form-control" type="text" name="phone" required autofocus><br>
+                <input class="form-control" type="text" name="phone" id="phone" required autofocus><br>
             </div>
             <div class="col-md-12 form-group">
                 Endereço: <i class="fa fa-map"></i>
@@ -45,3 +45,9 @@
         </div>
     </div>
 </form>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script> 
+
+<script type="text/javascript" src="../js/index.js"></script>
